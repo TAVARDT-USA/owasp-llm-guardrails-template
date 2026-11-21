@@ -1,0 +1,23 @@
+{
+  "name": "TAVARDT OWASP LLM01 Security Ruleset",
+  "version": "1.0.0",
+  "threat_coverage": [
+    "OWASP-LLM01: Prompt Injection",
+    "OWASP-LLM06: Sensitive Information Disclosure",
+    "OWASP-LLM07: Insecure Plugin Design"
+  ],
+  "heuristics": {
+    "override_attempts": {
+      "action": "block",
+      "severity": "high"
+    },
+    "canary_leakage": {
+      "action": "terminate_session",
+      "severity": "critical"
+    },
+    "delimiters_tampering": {
+      "action": "sanitize",
+      "severity": "medium"
+    }
+  }
+}
