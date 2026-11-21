@@ -7,7 +7,7 @@
 
 Production-ready open source middleware and security blueprint for mitigating Prompt Injection (OWASP LLM01), system prompt extraction, and adversarial jailbreaks, aligned with NIST AI RMF and SOC 2 guidelines.
 
-Engineered and maintained by the AI and perimeter security practice at **[TAVARDT USA](https://ag.tavardt.com/super-intelligence/)**.
+Engineered and maintained by the AI safety and security engineering practice at **[TAVARDT USA](https://ag.tavardt.com/super-intelligence/)**.
 
 ---
 
@@ -42,7 +42,7 @@ Before deploying customer-facing AI agents or internal copilot workflows, evalua
 
 ## 4. Installation & Quickstart Guide
 
-### Clone & Execução
+### Clone & Run
 
 ```bash
 git clone https://github.com/TAVARDT-USA/owasp-llm-guardrails-template.git
@@ -50,25 +50,25 @@ cd owasp-llm-guardrails-template
 python examples/quickstart.py
 ```
 
-### Exemplo de Integração
+### Python Integration Example
 
 ```python
 from guardrails.validator import LLMGuardrail
 
 guard = LLMGuardrail()
 
-# 1. Validação de Ingress (Input Guardrail)
+# 1. Ingress Validation (Input Guardrail)
 is_safe, error = guard.validate_input(user_input)
 if not is_safe:
-    raise ValueError(f"Blocked input: {error}")
+    raise ValueError(f"Input blocked due to suspicious adversarial pattern: {error}")
 
-# 2. Injeção de Canary no Prompt de Sistema
+# 2. Inject Canary Token into System Prompt
 hardened_system_prompt = guard.get_canary_injection_prompt(system_prompt)
 
-# 3. Validação de Egress (Output Guardrail)
+# 3. Egress Validation (Output Guardrail)
 is_valid, leak_error = guard.validate_output(completion)
 if not is_valid:
-    raise SecurityError("System prompt leak detected!")
+    raise SecurityError("Critical alert: System prompt leak detected via canary token!")
 ```
 
 ---
@@ -84,5 +84,5 @@ If your enterprise requires full-lifecycle AI security auditing, automated Whats
 
 ## License
 
-Distribuído sob a licença de código aberto MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.  
+Distributed under the open-source MIT License. Review the [`LICENSE`](LICENSE) file for full terms.  
 Copyright (c) 2026 TAVARDT USA.
