@@ -78,7 +78,7 @@ if not is_valid:
 If your enterprise requires full-lifecycle AI security auditing, automated WhatsApp/Telegram agent safeguarding, or NIST AI RMF alignment:
 
 * **Corporate Portal:** [TAVARDT USA](https://ag.tavardt.com/super-intelligence/)
-* **Engineering Consultation:** [Schedule Technical Engagement](https://ag.tavardt.com/contact/)
+* **Engineering Consultation:** [Contact Engineering Team](https://ag.tavardt.com/contact/)
 
 ---
 
