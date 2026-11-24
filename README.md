@@ -1,4 +1,4 @@
-# OWASP LLM01 Guardrails Template & AI Security Blueprint | TAVARDT USA
+# OWASP LLM01 Guardrails Template & AI Security Blueprint
 
 [![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![OWASP LLM01](https://img.shields.io/badge/OWASP-LLM01%20Hardened-ff0055.svg)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
@@ -85,4 +85,4 @@ If your enterprise requires full-lifecycle AI security auditing, automated Whats
 ## License
 
 Distributed under the open-source MIT License. Review the [`LICENSE`](LICENSE) file for full terms.  
-Copyright (c) 2026 TAVARDT USA.
+Copyright (c) 2026 TAVARDT.
