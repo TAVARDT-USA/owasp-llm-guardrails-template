@@ -7,7 +7,7 @@
 
 Production-ready open source middleware and security blueprint for mitigating Prompt Injection (OWASP LLM01), system prompt extraction, and adversarial jailbreaks, aligned with NIST AI RMF and SOC 2 guidelines.
 
-Engineered and maintained by the AI safety and security engineering practice at **TAVARDT USA**.
+Engineered and maintained by the AI safety and security engineering practice at **TAVARDT**.
 
 ***
 
@@ -77,7 +77,7 @@ if not is_valid:
 
 If your enterprise requires full-lifecycle AI security auditing, automated WhatsApp/Telegram agent safeguarding, or NIST AI RMF alignment:
 
-* **Corporate Portal:** **TAVARDT USA**
+* **Corporate Portal:** **TAVARDT**
 * **Engineering Consultation:** [Contact Engineering Team](https://ag.tavardt.com/contact/)
 
 ***
@@ -85,4 +85,8 @@ If your enterprise requires full-lifecycle AI security auditing, automated Whats
 ## License
 
 Distributed under the open-source MIT License. Review the [`LICENSE`](LICENSE) file for full terms.  
-Copyright (c) 2026 TAVARDT.
+Copyright
+
+***
+
+© 2026 TAVARDT. All rights reserved.
