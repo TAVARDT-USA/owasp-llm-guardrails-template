@@ -7,9 +7,9 @@
 
 Production-ready open source middleware and security blueprint for mitigating Prompt Injection (OWASP LLM01), system prompt extraction, and adversarial jailbreaks, aligned with NIST AI RMF and SOC 2 guidelines.
 
-Engineered and maintained by the AI safety and security engineering practice at **[TAVARDT USA](https://ag.tavardt.com/super-intelligence/)**.
+Engineered and maintained by the AI safety and security engineering practice at **TAVARDT USA**.
 
----
+***
 
 ## 1. AI & LLM Security Architecture Overview
 
@@ -18,27 +18,27 @@ This repository delivers a lightweight, production-grade guardrail framework for
 ### Why Application-Layer Guardrails Are Critical
 Large Language Models inherently treat system instructions and user-supplied data within the same unified context window. Without deterministic input filtering and canary-backed output validation, AI agents remain vulnerable to context hijacking, credential exfiltration, and unauthorized tool execution.
 
----
+***
 
 ## 2. Threat Vectors Addressed (OWASP Top 10 for LLMs)
 
 | Defense Layer | Threat Vector Mitigated | Mitigation Mechanism |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | **Input Sanitizer** | Direct Prompt Injection & Jailbreaks | Edge heuristic and pattern screening for boundary breaks (`ignore previous instructions`, simulated roleplay, delimiters). |
 | **Canary Token Verifier** | System Prompt Exfiltration | Cryptographically unpredictable canary token validation in model outputs to stop leakage. |
 | **RAG Boundary Guard** | Indirect Prompt Injection | Semantic boundary isolation for untrusted third-party documents ingested into vector databases. |
 | **Structured Output Filter** | Unauthorized Tool / MCP Invocation | Strict schema enforcement on function calls prior to downstream API or tool dispatch. |
 
----
+***
 
 ## 3. Pre-Deployment Model Robustness Diagnostic
 
 Before deploying customer-facing AI agents or internal copilot workflows, evaluate your system's adversarial resilience with TAVARDT's open diagnostic suite:
 
-* **AI Robustness Assessment:** [TAVARDT LLM Robustness Evaluator](https://tools.tavardt.com/llm-robustness-evaluator/)
-* **Complete Infrastructure Diagnostics:** [TAVARDT Tools Suite](https://tools.tavardt.com/)
+* **AI Robustness Assessment:** **TAVARDT LLM Robustness Evaluator**
+* **Complete Infrastructure Diagnostics:** **TAVARDT Tools Suite**
 
----
+***
 
 ## 4. Installation & Quickstart Guide
 
@@ -71,16 +71,16 @@ if not is_valid:
     raise SecurityError("Critical alert: System prompt leak detected via canary token!")
 ```
 
----
+***
 
 ## 5. AI Security Advisory & Autonomous Agent Engineering
 
 If your enterprise requires full-lifecycle AI security auditing, automated WhatsApp/Telegram agent safeguarding, or NIST AI RMF alignment:
 
-* **Corporate Portal:** [TAVARDT USA](https://ag.tavardt.com/super-intelligence/)
+* **Corporate Portal:** **TAVARDT USA**
 * **Engineering Consultation:** [Contact Engineering Team](https://ag.tavardt.com/contact/)
 
----
+***
 
 ## License
 
