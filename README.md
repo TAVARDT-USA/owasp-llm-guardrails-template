@@ -1,14 +1,10 @@
 # OWASP LLM01 Guardrails Template & AI Security Blueprint
 
-[![Licence MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![OWASP LLM01](https://img.shields.io/badge/OWASP-LLM01%20Hardened-ff0055.svg)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-[![Language](https://img.shields.io/badge/Language-English%20(US)-green.svg)](README.md)
 [![AI Diagnostics](https://img.shields.io/badge/TAVARDT-AI%20Evaluator-5b3cf5.svg)](https://tools.tavardt.com/llm-robustness-evaluator/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Production-ready open source middleware and security blueprint for mitigating Prompt Injection (OWASP LLM01), system prompt extraction, and adversarial jailbreaks, aligned with NIST AI RMF and SOC 2 guidelines.
-
-Engineered and maintained by the AI safety and security engineering practice at **TAVARDT**.
 
 ***
 
@@ -74,16 +70,7 @@ if not is_valid:
 
 ***
 
-## 5. AI Security Advisory & Autonomous Agent Engineering
-
-If your enterprise requires full-lifecycle AI security auditing, automated WhatsApp/Telegram agent safeguarding, or NIST AI RMF alignment:
-
-* **Corporate Portal:** **TAVARDT**
-* **Engineering Consultation:** [Contact Engineering Team](https://ag.tavardt.com/contact/)
-
-***
-
-## Useful Links
+## 5. Useful Links
 
 * **Corporate Portal:** https://ag.tavardt.com/
 * **Diagnostic Suite:** https://tools.tavardt.com/
@@ -93,7 +80,7 @@ If your enterprise requires full-lifecycle AI security auditing, automated Whats
 
 ### License
 
-Distributed under the open-source MIT License. Review the [`LICENSE`](LICENSE) file for full terms.
+Distributed under the open-source MIT License.
 
 ***
 
