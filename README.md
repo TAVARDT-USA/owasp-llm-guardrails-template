@@ -91,10 +91,9 @@ If your enterprise requires full-lifecycle AI security auditing, automated Whats
 
 ***
 
-## License
+### License
 
-Distributed under the open-source MIT License. Review the [`LICENSE`](LICENSE) file for full terms.  
-Copyright
+Distributed under the open-source MIT License. Review the [`LICENSE`](LICENSE) file for full terms.
 
 ***
 
